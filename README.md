@@ -29,17 +29,23 @@ All the above mentioned libraries comes with stock Python. In case any library i
 ## HOW TO RUN
 
 Open the location of this script in shell/CMD/Terminal and use the following commands.
-'''
+
+'''python
 $ python classifier.py help
 '''
+
 This command will display the glimpse of documentation of the script which will include how to run the script.
-'''
+
+'''python
 $ python classifier.py classify pathofdirectory mode
 '''
+
 This command will classify the directory at <pathofdirectory> location. Mode will be 0 or 1. Enter the full directory path in double inverted commas.
-'''
+
+'''python
 $ python classifier.py backup pathofdirectory destinationpath
 '''
+
 This command will create a Zipped Backup File of directory stored at <pathofdirectory> and store the backup file at <destinationpath>.
 
 ## KEY THINGS
